@@ -22,15 +22,15 @@ interface MockRequest {
 
 interface MockResponse {
   status(): number;
-  status(code: number): void;
-  header(name: string, value: string): void;
+  status(code: number): MockResponse;
+  header(name: string, value: string): MockResponse;
   header(name: string): string;
   headers(): any;
-  headers(headers: any): void;
+  headers(headers: any): MockResponse;
   body(): string;
-  body(body: string): void;
+  body(body: string): MockResponse;
   timeout(): boolean | number;
-  timeout(timeout: boolean | number): void;
+  timeout(timeout: boolean | number): MockResponse;
 }
 
 interface MockHandler {
