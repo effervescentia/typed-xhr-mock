@@ -1,0 +1,12 @@
+{
+  "name": "xhr-mock",
+  "main": "index.d.ts",
+  "homepage": "https://github.com/jameslnewell/xhr-mock",
+  "version": "1.6.0",
+  "devDependencies": {
+    "blue-tape": "registry:npm/blue-tape#0.1.0+20160322235613"
+  },
+  "globalDevDependencies": {
+    "node": "registry:dt/node#6.0.0+20160608110640"
+  }
+}
