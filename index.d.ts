@@ -1,16 +1,15 @@
-declare function setup(): void;
-declare function teardown(): void;
+export function setup(): void;
+export function teardown(): void;
 
-declare function mock(cb: MockHandler): void;
-declare function mock(method: string, url: string, cb: MockHandler): void;
+export function mock(cb: MockHandler): void;
+export function mock(method: string, url: string, cb: MockHandler): void;
 
-declare function get(url: string, cb: MockHandler): void;
-declare function post(url: string, cb: MockHandler): void;
-declare function put(url: string, cb: MockHandler): void;
-declare function patch(url: string, cb: MockHandler): void;
+export function get(url: string, cb: MockHandler): void;
+export function post(url: string, cb: MockHandler): void;
+export function put(url: string, cb: MockHandler): void;
+export function patch(url: string, cb: MockHandler): void;
 declare function del(url: string, cb: MockHandler): void;
-
-export { setup, teardown, mock, get, post, put, patch, del as delete };
+export { del as delete };
 
 interface MockRequest {
   method(): string;
