@@ -1,5 +1,7 @@
 # Typed XHR Mock
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/effervescentia/typed-xhr-mock.svg)](https://greenkeeper.io/)
+
 [![CircleCI branch](https://img.shields.io/circleci/project/effervescentia/typed-xhr-mock/master.svg?maxAge=2592000)]()
 
 The type definition for [`xhr-mock`](https://github.com/jameslnewell/xhr-mock)
